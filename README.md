@@ -22,7 +22,7 @@ SickRage in a Docker container
 
     docker run -v <your host config directory>:/config \
                -v <your host data directory>:/data \
-               -d -p 8081:8081 sickrage
+               -d -p 8081:8081 folieadrien/sickrage
                
 SickRage should now be listening on port 8081 on your Docker host.
 
