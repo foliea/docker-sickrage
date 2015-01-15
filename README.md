@@ -1,7 +1,7 @@
 # docker-sickrage
 [SickRage](https://sickrage.tv/) in a Docker container
 
-## Base Docker Image
+## Base Docker Image.
 
 * [ubuntu 14.04](https://registry.hub.docker.com/_/ubuntu/)
 
