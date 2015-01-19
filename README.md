@@ -26,5 +26,5 @@
                
 SickRage should now be listening on port 8081 on your Docker host.
 
->Nb. After each upgrade, you should either restart the container, or create a new one
+>N.B. After each upgrade, you should either restart the container, or create a new one
 using the same host `config` and `data` directories as volumes.
