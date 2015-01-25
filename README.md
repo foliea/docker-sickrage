@@ -1,5 +1,5 @@
 # docker-sickrage
-[SickRage](https://sickrage.tv/) in a Docker container
+[SickRage](https://sickrage.tv/) in a Docker container.
 
 ## Base Docker Image.
 
