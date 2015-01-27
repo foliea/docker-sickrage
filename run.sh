@@ -1,18 +1,23 @@
 #!/bin/sh
 set -e
 
-for file in config.ini sickbeard.db
+for filename in config.ini sickbeard.db
 do
-    # Restore config file
-    if [ -f /config/$file ]
+    # Volume config file
+    config_file="/config/$filename"
+    # Sickrage config file
+    app_file="$APP/$filename"
+
+     # Restore Sickrage config file
+    if [ -f $config_file ]
     then
-    	rm -rf "$APP/$file"
-    	echo "$file restored."
+    	rm -rf $app_file
+    	echo "$app_file restored."
     else
-    	touch /config/$file
-    	echo "$file created."
+    	touch $config_file
+    	echo "$app_file created."
     fi
-    ln -sf /config/$file "$APP/$file"
+    ln -sf $config_file $app_file
 done
 
 # Launch sickrage
