@@ -20,5 +20,5 @@ do
     ln -sf $config_file $app_file
 done
 
-# Launch sickrage
+# Launch Sickrage
 python "$APP/SickBeard.py" -q
