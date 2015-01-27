@@ -13,7 +13,6 @@ do
     	echo "$file created."
     fi
     ln -sf /config/$file "$APP/$file"
-    
 done
 
 # Launch sickrage
