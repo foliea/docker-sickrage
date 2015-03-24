@@ -16,7 +16,7 @@
 2. Download [automated build](https://registry.hub.docker.com/u/foliea/sickrage) from public 
 [docker hub registry](https://registry.hub.docker.com/):
 
-    `docker pull folieadrien/sickrage`
+    `docker pull foliea/sickrage`
 
 ## Usage
 
