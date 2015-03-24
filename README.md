@@ -7,13 +7,13 @@
 
 ## Sources
 
-* [GitHub](https://github.com/folieadrien/docker-sickrage)
+* [GitHub](https://github.com/foliea/docker-sickrage)
 
 ## Installation
 
 1. Install [docker](http://www.docker.com).
 
-2. Download [automated build](https://registry.hub.docker.com/u/folieadrien/sickrage) from public 
+2. Download [automated build](https://registry.hub.docker.com/u/foliea/sickrage) from public 
 [docker hub registry](https://registry.hub.docker.com/):
 
     `docker pull folieadrien/sickrage`
@@ -22,7 +22,7 @@
 
     docker run -v <your host config directory>:/config \
                -v <your host data directory>:/data \
-               -d -p 8081:8081 folieadrien/sickrage
+               -d -p 8081:8081 foliea/sickrage
                
 SickRage should now be listening on port 8081 on your Docker host.
 
