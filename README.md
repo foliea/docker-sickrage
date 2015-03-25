@@ -1,4 +1,6 @@
 # docker-sickrage
+[![foliea/docker-sickrage](http://dockeri.co/image/foliea/docker-sickrage)](https://registry.hub.docker.com/u/foliea/docker-sickrage/)
+
 [SickRage](https://sickrage.tv/) in a Docker container.
 
 ## Base Docker Image.
